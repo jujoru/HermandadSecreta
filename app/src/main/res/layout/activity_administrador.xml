@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:orientation="vertical"
+    tools:context="es.luisgonzaga.hermandadsecreta.AdministradorActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/titulo_administrador"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/aa_et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/login_et_nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/aa_et_contrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/login_password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/aa_bt_anadir"
+        android:layout_width="match_parent"
+        android:onClick="AnadirUsuario"
+        android:layout_height="wrap_content"
+        android:text="@string/aa_bt_anadir" />
+    <Button
+        android:id="@+id/aa_eliminar"
+        android:layout_width="match_parent"
+        android:onClick="EliminarUsuario"
+        android:layout_height="wrap_content"
+        android:text="@string/aa_bt_eliminar" />
+    <Button
+        android:id="@+id/aa_modificar"
+        android:onClick="ModificarContrasena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/aa_bt_modificar" />
+</LinearLayout>

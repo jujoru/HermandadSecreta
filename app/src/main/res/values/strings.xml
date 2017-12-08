@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HermandadSecreta</string>
+    <string name="titulo_administrador">Opciones de administración</string>
+    <string name="ma_tv_indentificar">Identifequese</string>
+    <string name="login_et_nombre">Nombre</string>
+    <string name="login_password">Contraseña</string>
+    <string name="ma_bt_mostrar">MOSTRAR HERMANOS</string>
+    <string name="ma_et_estado">Estado</string>
+    <string name="ma_bt_cambiarestado">CAMBIAR ESTADO</string>
+    <string name="ma_bt_administrador">ADMINISTRADOR</string>
+    <string name="aa_bt_anadir">AÑADIR USUARIO</string>
+    <string name="aa_bt_eliminar">ELIMINAR USUARIO</string>
+    <string name="aa_bt_modificar">MODIFICAR CONTRASEÑA</string>
+
+
+</resources>

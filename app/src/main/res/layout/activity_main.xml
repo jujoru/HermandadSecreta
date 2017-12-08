@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="es.luisgonzaga.hermandadsecreta.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/ma_tv_indentificar"
+        android:textSize="24sp" />
+
+    <EditText
+            android:id="@+id/ma_et_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/login_et_nombre" />
+
+    <EditText
+            android:id="@+id/ma_et_contrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/login_password"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:id="@+id/ma_bt_mostrarhermanos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="MostrarHermanos"
+            android:text="@string/ma_bt_mostrar" />
+
+        <EditText
+            android:id="@+id/ma_et_estado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/ma_et_estado"
+            android:inputType="text" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="CambiarEstado"
+        android:id="@+id/ma_bt_cambiarestado"
+        android:text="@string/ma_bt_cambiarestado" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+    <Button
+        android:id="@+id/ma_bt_administrador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:onClick="Administrador"
+        android:text="@string/ma_bt_administrador" />
+</LinearLayout>
+
+</LinearLayout>
